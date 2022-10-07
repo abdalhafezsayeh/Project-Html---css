@@ -901,3 +901,180 @@ color: #ce7852;
 {
     top: 0px;
 } 
+
+
+
+/* Start Media Qury */
+/* Start Navbar */
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+
+    .nav .useFlex .content-text {
+        display: none;
+    }
+    .product .one {
+        padding: 0;
+        margin: 0;
+        margin-bottom: 40px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #99999945;
+    }
+    .product .one .boxImage {
+       margin: auto;
+    }
+    .product .app-pro {
+        display: block;
+        text-align: center;
+    }
+
+    .product .one .boxImage div {
+        display: none;
+    }
+
+    .product .des, .allPro .des, .blog .des, .seller .des{
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    .product .Title, .allPro .Title, .blog .Title, .seller .Title {
+        font-size: 20px;
+    }
+    .nav .app-text .text li {
+        margin: 0;
+        display: block;
+        padding: 5px;
+    }
+    .nav .left {
+        display: none;
+    }
+    .nav .right {
+        display: none;
+    }
+
+
+/* Footer */
+.app-text {
+    display:none; /* For Test Navbar  */ 
+    transition: all .5s;
+    
+}
+.nav .app-text .text li a:hover {
+    color: #000;
+}
+/* Show Navbar */
+.showNow {
+    display: block;
+   
+}
+
+.nav .app-text .icons {
+    width: 100%;
+    text-align: center;
+}
+.nav .app-text .text {
+    margin: 0;
+    display: block;
+    margin: auto;
+    margin-left: 27px;
+}
+.nav .app-text .text li a {
+    color: #FFF;
+}
+.nav .app-text .icons li i {
+    color: #FFF;
+}
+.nav .useFlex {
+    display: block;
+    background-color: #c07249;
+}
+.nav .logo {
+    padding: 10px 10px 10px 0px;
+    margin: 0;
+    margin-right: auto;
+    width: 150px;
+    height: 70px;
+    background-color: #FFF;
+    
+}
+.nav .logo i {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    font-size: 30px;
+    color: #FFF;
+}
+.nav .logo img {
+    width: 100%;
+}
+.allPro {
+    padding-top: 0;
+}
+.stay {
+    display: none;
+}
+.allPro .list ul li {
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.blog .appBlog {
+    display: block;
+}
+.blog .appBlog .first {
+    width: 100%;
+    margin-bottom: 25px;
+}
+.seller {
+    display: none;
+}
+.copy .apcopy {
+    display: block;
+}
+.top {
+    width: 25px;
+    height: 25px;
+}
+.top i {
+    font-size: 15px;
+    margin-top: 0;
+}
+footer {
+    padding-top: 0;
+}
+footer .flist li {
+    font-size: 12px;
+    padding: 5px;
+}
+footer .ftext {
+    font-size: 14px;
+}
+
+
+
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .nav .app-text .icons {
+        margin-left: 0;
+    }
+
+    .nav .app-text .text {
+        margin-right: 0;
+    }
+    .nav .app-text .text li a {
+        font-size: 13px;
+    }
+    .nav .app-text .icons li i {
+        font-size: 12px;
+    }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) { ... } */
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+/* @media (min-width: 1400px) {  } */

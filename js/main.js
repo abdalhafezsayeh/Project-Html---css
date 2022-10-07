@@ -22,7 +22,8 @@ buttonTop.addEventListener("click",function()
 
 
 /* Start Slider  */
-var ElementSlider = document.querySelector(".nav") // select Parent Img 
+var ElementSlider = document.querySelector(".nav") // select Parent Img
+console.log(ElementSlider)
 // Function Click Icon Left
 function left()
 {
@@ -188,8 +189,6 @@ document.addEventListener("click",function(e){
                 document.querySelector(".overlay").remove()
                 document.querySelector(".appDiv").remove()
                 // console.log("Valid") // Test 
-
-
             } else {
 
                 userNameValued.style.border = "1px solid red"
@@ -295,3 +294,16 @@ out.addEventListener("click", function(e) {
 })
 
 
+/// Test Navbar 
+
+let showNavabr = document.querySelector(".fa-bars");
+let elementNavbar = document.querySelector(".app-text")
+
+showNavabr.addEventListener("click", function() {
+
+    elementNavbar.classList.toggle("showNow")
+
+
+    console.log("test")
+
+})

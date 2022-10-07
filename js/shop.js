@@ -143,7 +143,7 @@ searchInput.addEventListener("click", function () {
     var booksJson = new XMLHttpRequest(); // Step One Initilaiz
     booksJson.open(
       "GET",
-      "https://www.googleapis.com/books/v1/volumes?q=" + bookSearch.value
+      "https://www.googleapis.com/books/v1/volumes?q=+bookSearch.value"
     ); // Step Two Server Connection
   
     booksJson.onreadystatechange = function () {
